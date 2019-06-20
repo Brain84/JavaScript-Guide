@@ -6,7 +6,7 @@
 
 ## Types
 * Primitives
-  * string
+  * `string`
   ```javascript
   const foo = 'name';
   console.log(typeof foo); // string
