@@ -12,7 +12,15 @@
   console.log(typeof foo); // string
   ```
   * number
+  ```javascript
+  const foo = 10;
+  console.log(typeof foo); // number
+  ```
   * boolean
+  ```javascript
+  const foo = true;
+  console.log(typeof foo); // boolean
+  ```
   * null
   * undefined
   * symbol
