@@ -1,1 +1,1 @@
-# JavaScript-Guide
+# JavaScript Guide
