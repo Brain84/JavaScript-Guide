@@ -7,7 +7,7 @@
 ## Types
 * Primitives
   * string
-  ```
+  ```javascript
   const foo = 'name';
   console.log(typeof foo); // string
   ```
