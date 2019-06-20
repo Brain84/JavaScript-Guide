@@ -33,6 +33,8 @@
   * `array`
   * `function`
 
-[Back to top](#table-of-contents)
+[Back to table of contents](#table-of-contents)
 
 ## Variables
+
+[Back to table of contents](#table-of-contents)
