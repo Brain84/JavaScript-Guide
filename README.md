@@ -7,10 +7,10 @@
 ## Types
 * Primitives
   * string
-  `
+  ```
   const foo = 'name';
   console.log(typeof foo); // string
-  `
+  ```
   * number
   * boolean
   * null
