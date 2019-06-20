@@ -32,6 +32,7 @@
   * `object`
   * `array`
   * `function`
+
 [Back to top](#table-of-contents)
 
 ## Variables
