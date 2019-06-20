@@ -6,16 +6,16 @@
 
 ## Types
 * Primitives
-   * string
-  number
-  boolean
-  null
-  undefined
-  symbol
+  * string
+  * number
+  * boolean
+  * null
+  * undefined
+  * symbol
 
 * Complex
-  object
-  array
-  function
+  * object
+  * array
+  * function
 
 ## Variables
