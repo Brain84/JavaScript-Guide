@@ -7,27 +7,30 @@
 ## Types
 * Primitives
   * `string`
+
   ```javascript
   const foo = 'name';
   console.log(typeof foo); // string
   ```
-  * number
+  * `number`
+
   ```javascript
   const foo = 10;
   console.log(typeof foo); // number
   ```
-  * boolean
+  * `boolean`
+
   ```javascript
   let foo = true;
   console.log(typeof foo); // boolean
   ```
-  * null
-  * undefined
-  * symbol
+  * `null`
+  * `undefined`
+  * `symbol`
 
 * Complex
-  * object
-  * array
-  * function
+  * `object`
+  * `array`
+  * `function`
 
 ## Variables
