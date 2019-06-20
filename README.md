@@ -43,7 +43,7 @@
 [Back to table of contents](#table-of-contents)
 
 ## Variables
-  Always use `const` or `let` to declare variables. In ES5 used 'var' but ES6 has created new variables.
+  Always use `const` or `let` to declare variables. In ES5 used `var` but ES6 has created new variables.
   * `const`
   ```javascript
   const noo = 10;
