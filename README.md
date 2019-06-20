@@ -18,7 +18,7 @@
   ```
   * boolean
   ```javascript
-  const foo = true;
+  let foo = true;
   console.log(typeof foo); // boolean
   ```
   * null
