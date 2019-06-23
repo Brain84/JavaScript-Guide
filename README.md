@@ -54,6 +54,10 @@
   noo = 20;
   console.log(noo); // Error: Assignment to constant variable
   ```
+  ```javascript
+  const noo;
+  console.log(noo); // Error: Missing initializer in const declaration
+  ```
   * `let`
   ```javascript
   let soo = 'Name';
