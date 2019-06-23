@@ -48,6 +48,10 @@
   ```javascript
   const noo = 10;
   console.log(noo); // 10
+
+  const noo = 10;
+  noo = 20;
+  console.log(noo); // Error: Assignment to constant variable
   ```
   * `let`
   ```javascript
