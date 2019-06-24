@@ -63,10 +63,28 @@
   let soo = 'Name';
   console.log(soo); // Name
   ```
+  ```javascript
+  let soo = 'Name';
+  soo = 'Surname'
+  console.log(soo); // Surname
+  ```
+  ```javascript
+  let soo;
+  console.log(soo); // undefined
+  ```
   * `var`
   ```javascript
   var boo = false;
   console.log(boo); // false
+  ```
+  ```javascript
+  var boo = false;
+  boo = true
+  console.log(boo); // true
+  ```
+  ```javascript
+  var boo;
+  console.log(boo); // undefined
   ```
 
 [Back to table of contents](#table-of-contents)
