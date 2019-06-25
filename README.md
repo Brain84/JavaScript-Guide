@@ -3,6 +3,7 @@
 ## Table of contents
 * [Types](#types)
 * [Variables](#variables)
+* [Object](#object)
 
 ## Types
 * Primitives
@@ -85,6 +86,31 @@
   ```javascript
   var boo;
   console.log(boo); // undefined
+  ```
+
+[Back to table of contents](#table-of-contents)
+
+## Object
+  When you want to create object use `{}`
+  ```javascript
+  const item = {
+    id: 1,
+    name: 'Kate',
+    surname: 'Watson'
+  };
+
+  console.log(item); // {id: 1, name: "Kate", surname: "Watson"}
+  console.log(item.name); // Kate 
+  ```
+  ```javascript
+  const fullName = 'Kate Watson';
+
+  const item = {
+    fullName,
+    age: 25
+  };
+
+  console.log(item.fullName); // Kate Watson
   ```
 
 [Back to table of contents](#table-of-contents)
