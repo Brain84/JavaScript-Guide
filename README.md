@@ -126,5 +126,15 @@
 
   console.log(item.fullName); // Kate Watson
   ```
+  ```javascript
+  const arr = { 
+    a: 1, 
+    b: 2,
+  };
+
+  const copy = { ...arr, c: 3 }; 
+
+  console.log(copy); // {a: 1, b: 2, c: 3}
+  ```
 
 [Back to table of contents](#table-of-contents)
