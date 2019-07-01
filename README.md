@@ -3,7 +3,8 @@
 ## Table of contents
 * [Types](#types)
 * [Variables](#variables)
-* [Object](#object)
+* [Objects](#object)
+* [Arrays](#arrays)
 
 ## Types
 * Primitives
@@ -104,10 +105,10 @@
 
 [Back to table of contents](#table-of-contents)
 
-## Object
+## Objects
   When you want to create object use `{}`
   ```javascript
-  const item = {
+  const items = {
     id: 1,
     name: 'Kate',
     surname: 'Watson',
@@ -119,7 +120,7 @@
   ```javascript
   const fullName = 'Kate Watson';
 
-  const item = {
+  const items = {
     fullName,
     age: 25,
   };
@@ -127,14 +128,24 @@
   console.log(item.fullName); // Kate Watson
   ```
   ```javascript
-  const arr = { 
+  const items = { 
     a: 1, 
     b: 2,
   };
 
-  const copy = { ...arr, c: 3 }; 
+  const copy = { ...items, c: 3 }; 
 
   console.log(copy); // {a: 1, b: 2, c: 3}
   ```
 
 [Back to table of contents](#table-of-contents)
+
+## Arrays
+  When you want to create array use `[]`
+  ```javascript
+  const arr = [2, 10, 25]
+
+  console.log(arr[0]); // 2 
+  console.log(arr[1]); // 10
+  console.log(arr.length); // 3
+  ```
