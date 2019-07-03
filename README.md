@@ -149,3 +149,5 @@
   console.log(arr[1]); // 10
   console.log(arr.length); // 3
   ```
+
+[Back to table of contents](#table-of-contents)
