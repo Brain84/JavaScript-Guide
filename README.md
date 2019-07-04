@@ -149,5 +149,26 @@
   console.log(arr[1]); // 10
   console.log(arr.length); // 3
   ```
+  ```javascript
+  const arrayInArray = [[0, 'Kate'], [1, 'Peter'], [2, 'Paul']];
+
+  console.log(arrayInArray[1]); // [1, "Peter"]
+  console.log(arrayInArray[1][1]); // Peter
+  ```
+  ```javascript
+  const objectInArray = [
+    {
+      id: 1,
+      name: 'Kate',
+    },
+    {
+      id: 2,
+      name: 'Peter',
+    },
+  ];
+
+  console.log(objectInArray[0]); // {id: 1, name: "Kate"}
+  console.log(objectInArray[0].name); // Kate
+  ```
 
 [Back to table of contents](#table-of-contents)
