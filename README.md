@@ -143,7 +143,7 @@
 ## Arrays
   When you want to create array use `[]`
   ```javascript
-  const arr = [2, 10, 25]
+  const arr = [2, 10, 25];
 
   console.log(arr[0]); // 2 
   console.log(arr[1]); // 10
