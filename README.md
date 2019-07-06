@@ -147,6 +147,9 @@
 
   console.log(arr[0]); // 2 
   console.log(arr[1]); // 10
+  console.log(arr[2]); // 25
+  console.log(arr[3]); // undefined
+  
   console.log(arr.length); // 3
   ```
   ```javascript
