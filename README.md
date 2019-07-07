@@ -173,5 +173,12 @@
   console.log(objectInArray[0]); // {id: 1, name: "Kate"}
   console.log(objectInArray[0].name); // Kate
   ```
+  * unshift
+  ```javascript
+  const arr = [2, 10, 25];
+  arr.unshift('Kate');
+  
+  console.log(arr); // ["Kate", 2, 10, 25]
+  ```
 
 [Back to table of contents](#table-of-contents)
