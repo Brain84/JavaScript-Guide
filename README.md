@@ -180,5 +180,12 @@
   
   console.log(arr); // ["Kate", 2, 10, 25]
   ```
+  * shift
+  ```javascript
+  const arr = ['Kate', 2, 10, 25];
+  arr.shift('Kate');
+  
+  console.log(arr); // [2, 10, 25]
+  ```
 
 [Back to table of contents](#table-of-contents)
