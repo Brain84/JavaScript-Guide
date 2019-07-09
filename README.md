@@ -187,5 +187,18 @@
   
   console.log(arr); // [2, 10, 25]
   ```
+  * push
+  ```javascript
+  const arr = [2, 10, 25];
+  arr.push('Kate');
+  
+  console.log(arr); // [2, 10, 25, "Kate"]
+  ```
+  ```javascript
+  const arr = [2, 10, 25];
+  arr.push('Kate', 'Paul');
+  
+  console.log(arr); // [2, 10, 25, "Kate", "Paul"]
+  ```
 
 [Back to table of contents](#table-of-contents)
