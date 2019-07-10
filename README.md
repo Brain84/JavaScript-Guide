@@ -200,5 +200,12 @@
   
   console.log(arr); // [2, 10, 25, "Kate", "Paul"]
   ```
+  * pop
+  ```javascript
+  const arr = [2, 10, 25, 'Kate', 'Paul'];
+  arr.pop('Paul');
+
+  console.log(arr); // [2, 10, 25, "Kate"]
+  ```
 
 [Back to table of contents](#table-of-contents)
