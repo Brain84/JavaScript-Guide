@@ -207,5 +207,17 @@
 
   console.log(arr); // [2, 10, 25, "Kate"]
   ```
+  * map
+  ```javascript
+  const arr = [2, 10, 25, 'Kate', 'Paul'];
+  
+  console.log(arr); // [2, 10, 25, "Kate", "Paul"]
+
+  const copyArr = arr.map(elementArr => {
+    return elementArr;
+  });
+
+  console.log(copyArr); // [2, 10, 25, "Kate", "Paul"]
+  ```
 
 [Back to table of contents](#table-of-contents)
