@@ -173,21 +173,21 @@
   console.log(objectInArray[0]); // {id: 1, name: "Kate"}
   console.log(objectInArray[0].name); // Kate
   ```
-  * unshift
+  * unshift()
   ```javascript
   const arr = [2, 10, 25];
   arr.unshift('Kate');
   
   console.log(arr); // ["Kate", 2, 10, 25]
   ```
-  * shift
+  * shift()
   ```javascript
   const arr = ['Kate', 2, 10, 25];
   arr.shift('Kate');
   
   console.log(arr); // [2, 10, 25]
   ```
-  * push
+  * push()
   ```javascript
   const arr = [2, 10, 25];
   arr.push('Kate');
@@ -200,14 +200,14 @@
   
   console.log(arr); // [2, 10, 25, "Kate", "Paul"]
   ```
-  * pop
+  * pop()
   ```javascript
   const arr = [2, 10, 25, 'Kate', 'Paul'];
   arr.pop('Paul');
 
   console.log(arr); // [2, 10, 25, "Kate"]
   ```
-  * map
+  * map()
   ```javascript
   const arr = [2, 10, 25, 'Kate', 'Paul'];
   
