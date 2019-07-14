@@ -3,7 +3,7 @@
 ## Table of contents
 * [Types](#types)
 * [Variables](#variables)
-* [Objects](#object)
+* [Objects](#objects)
 * [Arrays](#arrays)
 
 ## Types
