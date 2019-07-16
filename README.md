@@ -219,5 +219,15 @@
 
   console.log(copyArr); // [2, 10, 25, "Kate", "Paul"]
   ```
+  * filter()
+  ```javascript
+  const arr = [2, 10, 25, 44, 18, 61];
+
+  const copyArr = arr.filter(elementArr => {
+    return elementArr >= 18;
+  });
+
+  console.log(copyArr); // [25, 44, 18, 61]
+  ```
 
 [Back to table of contents](#table-of-contents)
