@@ -229,5 +229,15 @@
 
   console.log(copyArr); // [25, 44, 18, 61]
   ```
+  * every()
+  ```javascript
+  const arr = [2, 10, 25, 44, 18, 61];
+
+  const copyArr = arr.every(elementArr => {
+    return elementArr % 2 === 0;
+  });
+
+  console.log(copyArr); // false
+  ```
 
 [Back to table of contents](#table-of-contents)
