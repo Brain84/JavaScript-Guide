@@ -239,5 +239,15 @@
 
   console.log(copyArr); // false
   ```
+  * some()
+  ```javascript
+  const arr = [2, 10, 25, 44, 18, 61];
+
+  const copyArr = arr.some(elementArr => {
+    return elementArr >= 60;
+  });
+
+  console.log(copyArr); // true
+  ```
 
 [Back to table of contents](#table-of-contents)
