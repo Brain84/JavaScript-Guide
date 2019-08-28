@@ -241,7 +241,7 @@
   ```
   * some()
   ```javascript
-  const arr = [2, 10, 25, 44, 18, 61];
+  const arr = [2, 25, 44, 18, 61];
 
   const copyArr = arr.some(elementArr => {
     return elementArr >= 60;
