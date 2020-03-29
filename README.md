@@ -247,7 +247,7 @@
     return elementArr >= 60;
   });
 
-  console.log(copyArr); // true
+  console.log(copyArr); //true
   ```
 
 [Back to table of contents](#table-of-contents)
