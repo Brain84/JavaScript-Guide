@@ -5,6 +5,7 @@
 * [Variables](#variables)
 * [Objects](#objects)
 * [Arrays](#arrays)
+* [this](#this)
 
 ## Types
 * Primitives
@@ -305,5 +306,18 @@
   console.log(contentArr); // ["Kate", "Paul"]
   console.log(arr); // ["Kate", "Paul", "Peter"]
   ``` -->
+
+
+[Back to table of contents](#table-of-contents)
+
+## this
+
+```javascript
+const fn = function() {
+  console.log(this); // Window {parent: Window, opener: null, top: Window, length: 0, frames: Window, …}
+};
+
+fn();
+```
 
 [Back to table of contents](#table-of-contents)

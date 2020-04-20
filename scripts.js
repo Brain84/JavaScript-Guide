@@ -7,9 +7,15 @@
 // console.log(contentArr); // ["Paul", "Peter"]
 // console.log(arr); // ["Kate"]
 
-const arr = ['Kate', 'Paul', 'Peter'];
+// const arr = ['Kate', 'Paul', 'Peter'];
 
-const contentArr = arr.slice(0, 2);
+// const contentArr = arr.slice(0, 2);
 
-console.log(contentArr); // ["Paul"]
-console.log(arr); // ["Kate", "Paul", "Peter"]
+// console.log(contentArr); // ["Paul"]
+// console.log(arr); // ["Kate", "Paul", "Peter"]
+
+const fn = function() {
+  console.log(this);
+};
+
+fn();
