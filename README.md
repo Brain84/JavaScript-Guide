@@ -253,23 +253,23 @@
   ```javascript
   const arr = ['Kate', 'Paul', 'Peter'];
 
-  const copyArr = arr.join(''); 
+  const contentArr = arr.join(''); 
 
-  console.log(copyArr); // KatePaulPeter
+  console.log(contentArr); // KatePaulPeter
 
-  const copyArr = arr.join('').length;
+  const contentArrLength = arr.join('').length;
 
-  console.log(copyArr); // 13, because we have arr = ['KatePaulPeter'];
+  console.log(contentArrLength); // 13, because we have arr = ['KatePaulPeter'];
   ```
   ```javascript
-  const copyArr = arr.join(' '); 
+  const contentArr = arr.join(' '); 
 
-  console.log(copyArr); // Kate Paul Peter
+  console.log(contentArr); // Kate Paul Peter
   ```
   ```javascript
-  const copyArr = arr.join(' - ');
+  const contentArr = arr.join(' - ');
 
-  console.log(copyArr); // Kate - Paul - Peter
+  console.log(contentArr); // Kate - Paul - Peter
   ```
 
 [Back to table of contents](#table-of-contents)
