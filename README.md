@@ -249,5 +249,27 @@
 
   console.log(copyArr); // true
   ```
+  * join()
+  ```javascript
+  const arr = ['Kate', 'Paul', 'Peter'];
+
+  const copyArr = arr.join(''); 
+
+  console.log(copyArr); // KatePaulPeter
+
+  const copyArr = arr.join('').length;
+
+  console.log(copyArr); // 13, because we have arr = ['KatePaulPeter'];
+  ```
+  ```javascript
+  const copyArr = arr.join(' '); 
+
+  console.log(copyArr); // Kate Paul Peter
+  ```
+  ```javascript
+  const copyArr = arr.join(' - ');
+
+  console.log(copyArr); // Kate - Paul - Peter
+  ```
 
 [Back to table of contents](#table-of-contents)
