@@ -259,9 +259,9 @@
 
   const contentArrLength = arr.join('').length;
 
-  console.log(contentArrLength); // 13, because we have arr = ['KatePaulPeter'];
+  console.log(contentArrLength); // 13, because we have 'KatePaulPeter';
   ```
-  ```javascript
+  <!-- ```javascript
   const contentArr = arr.join(' '); 
 
   console.log(contentArr); // Kate Paul Peter
@@ -271,5 +271,39 @@
 
   console.log(contentArr); // Kate - Paul - Peter
   ```
+  * splice()
+  ```javascript
+  const arr = ['Kate', 'Paul', 'Peter'];
+
+  const contentArr = arr.splice(1, 1);
+
+  console.log(contentArr); // ["Paul"]
+  console.log(arr); // ["Kate", "Peter"]
+  ```
+  ```javascript
+  const arr = ['Kate', 'Paul', 'Peter'];
+
+  const contentArr = arr.splice(1, 2);
+
+  console.log(contentArr); // ["Paul", "Peter"]
+  console.log(arr); // ["Kate"]
+  ```
+  * slice()
+  ```javascript
+  const arr = ['Kate', 'Paul', 'Peter'];
+
+  const contentArr = arr.slice(1, 2);
+
+  console.log(contentArr); // ["Paul"]
+  console.log(arr); // ["Kate", "Paul", "Peter"]
+  ```
+  ```javascript
+  const arr = ['Kate', 'Paul', 'Peter'];
+
+  const contentArr = arr.slice(0, 2);
+
+  console.log(contentArr); // ["Kate", "Paul"]
+  console.log(arr); // ["Kate", "Paul", "Peter"]
+  ``` -->
 
 [Back to table of contents](#table-of-contents)
