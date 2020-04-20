@@ -5,7 +5,7 @@
 * [Variables](#variables)
 * [Objects](#objects)
 * [Arrays](#arrays)
-* [this](#this)
+* [This](#this)
 
 ## Types
 * Primitives
@@ -310,7 +310,7 @@
 
 [Back to table of contents](#table-of-contents)
 
-## this
+## This
 
 ```javascript
 const fn = function() {
