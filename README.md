@@ -5,7 +5,7 @@
 * [Variables](#variables)
 * [Objects](#objects)
 * [Arrays](#arrays)
-* [This](#this)
+<!-- * [This](#this) -->
 
 ## Types
 * Primitives
@@ -310,7 +310,7 @@
 
 [Back to table of contents](#table-of-contents)
 
-## This
+<!-- ## This
 
 ```javascript
 const fn = function() {
@@ -320,4 +320,4 @@ const fn = function() {
 fn();
 ```
 
-[Back to table of contents](#table-of-contents)
+[Back to table of contents](#table-of-contents) -->
