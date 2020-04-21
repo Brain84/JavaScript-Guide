@@ -262,12 +262,12 @@
 
   console.log(contentArrLength); // 13, because we have 'KatePaulPeter';
   ```
-  <!-- ```javascript
+  ```javascript
   const contentArr = arr.join(' '); 
 
   console.log(contentArr); // Kate Paul Peter
   ```
-  ```javascript
+  <!-- ```javascript
   const contentArr = arr.join(' - ');
 
   console.log(contentArr); // Kate - Paul - Peter
@@ -314,10 +314,157 @@
 
 ```javascript
 const fn = function() {
-  console.log(this); // Window {parent: Window, opener: null, top: Window, length: 0, frames: Window, …}
+  console.log(this); // Window {}
 };
 
 fn();
+```
+```javascript
+const fn = function() {
+  console.log(this.name); // Kate
+};
+
+const obj = {
+  name: 'Kate',
+  age: '25',
+  fun: fn
+};
+
+obj.fun();
+```
+```javascript
+const obj = {
+  name: 'Kate',
+  age: '25',
+};
+
+const fn = function() {
+  console.log(this.age); // undefined
+};
+
+fn();
+```
+```javascript
+const obj = {
+  name: 'Kate',
+  age: '25',
+};
+
+const fn = function() {
+  console.log(this.age); // 25
+};
+
+fn.call(obj); 
+```
+```javascript
+const obj = {
+  name: 'Kate',
+  age: '25',
+};
+
+const fn = function(name) {
+  console.log(this.age); // 25
+};
+
+const fnBind = fn.bind(obj);
+
+fnBind();
+```
+```javascript
+const obj = {
+  name: 'Peter',
+  age: '30',
+
+  showAge() {
+    console.log(this.age, this); // 30, {name: "Peter", age: "30", showAge: ƒ, showAge2: ƒ}
+  },
+
+  showAge2: () => {
+    console.log(this.age, this); // undefined, Window {}
+  },
+};
+
+obj.showAge();
+obj.showAge2();
+```
+```javascript
+const obj = {
+  names: ["Kate", "Paul", "Peter"],
+
+  showNames: function() {
+    this.names.forEach(function(name, index) {
+      console.log(this.names[index]); // TypeError: Cannot read property '0' of undefined
+    });
+  }
+};
+
+obj.showNames();
+```
+```javascript
+const obj = {
+  names: ["Kate", "Paul", "Peter"],
+
+  showNames: function() {
+    this.names.forEach(function(name, index) {
+      console.log(this); // Window {}
+    });
+  }
+};
+
+obj.showNames();
+```
+```javascript
+const obj = {
+  names: ["Kate", "Paul", "Peter"],
+
+  showNames: function() {
+    const that = this;
+    this.names.forEach(function(name, index) {
+      console.log(that.names[index]); // Kate Paul Peter
+    });
+  }
+};
+
+obj.showNames();
+```
+```javascript
+const obj = {
+  names: ["Kate", "Paul", "Peter"],
+
+  showNames: function() {
+    this.names.forEach((name, index) => {
+      console.log(this.names[index]); // Kate Paul Peter
+    });
+  }
+};
+
+obj.showNames();
+```
+```javascript
+const obj = {
+  names: ["Kate", "Paul", "Peter"],
+
+  showNames: function() {
+    this.names.forEach(function(name, index) {
+      console.log(this.names[index]); // Kate Paul Peter
+    }.bind(this));
+  }
+};
+
+obj.showNames();
+```
+```javascript
+const obj = {
+  names: ["Kate", "Paul", "Peter"],
+
+  showNames: function() {
+    for (const name of this.names) { ??????????? sprawdzic dokladnie pętle for of
+      console.log(name); // Kate Paul Peter
+    }
+  }
+};
+
+obj.showNames();
 ```
 
 [Back to table of contents](#table-of-contents) -->
