@@ -267,12 +267,12 @@
 
   console.log(contentArr); // Kate Paul Peter
   ```
-  <!-- ```javascript
+  ```javascript
   const contentArr = arr.join(' - ');
 
   console.log(contentArr); // Kate - Paul - Peter
   ```
-  * splice()
+  <!--* splice()
   ```javascript
   const arr = ['Kate', 'Paul', 'Peter'];
 
