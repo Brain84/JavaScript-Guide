@@ -272,7 +272,7 @@
 
   console.log(contentArr); // Kate - Paul - Peter
   ```
-  <!--* splice()
+  * splice()
   ```javascript
   const arr = ['Kate', 'Paul', 'Peter'];
 
@@ -281,7 +281,7 @@
   console.log(contentArr); // ["Paul"]
   console.log(arr); // ["Kate", "Peter"]
   ```
-  ```javascript
+  <!--```javascript
   const arr = ['Kate', 'Paul', 'Peter'];
 
   const contentArr = arr.splice(1, 2);
