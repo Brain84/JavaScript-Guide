@@ -281,7 +281,7 @@
   console.log(contentArr); // ["Paul"]
   console.log(arr); // ["Kate", "Peter"]
   ```
-  <!--```javascript
+  ```javascript
   const arr = ['Kate', 'Paul', 'Peter'];
 
   const contentArr = arr.splice(1, 2);
@@ -289,7 +289,7 @@
   console.log(contentArr); // ["Paul", "Peter"]
   console.log(arr); // ["Kate"]
   ```
-  * slice()
+  <!--* slice()
   ```javascript
   const arr = ['Kate', 'Paul', 'Peter'];
 
