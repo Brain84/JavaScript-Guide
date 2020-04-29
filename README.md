@@ -1,6 +1,6 @@
 # JavaScript Guide
 
-## Table of contents ![zdjecie](/Icons/list.jpg)
+## Table of contents ![zdjecie](./icons/list.jpg)
 * [Types](#types)
 * [Variables](#variables)
 * [Objects](#objects)
