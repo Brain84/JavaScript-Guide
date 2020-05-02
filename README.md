@@ -1,6 +1,6 @@
 # JavaScript Guide
 
-## Table of contents ![](/icons/list.png)
+## Table of contents
 * [Types](#types)
 * [Variables](#variables)
 * [Objects](#objects)
@@ -298,7 +298,6 @@
   console.log(contentArr); // ["Paul"]
   console.log(arr); // ["Kate", "Paul", "Peter"]
   ```
-  <!--
   ```javascript
   const arr = ['Kate', 'Paul', 'Peter'];
 
@@ -306,7 +305,7 @@
 
   console.log(contentArr); // ["Kate", "Paul"]
   console.log(arr); // ["Kate", "Paul", "Peter"]
-  ``` -->
+  ```
 
 
 [Back to table of contents](#table-of-contents)
