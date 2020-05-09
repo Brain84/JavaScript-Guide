@@ -319,7 +319,7 @@ const fn = function() {
 
 fn();
 ```
-<!-- ```javascript
+```javascript
 const fn = function() {
   console.log(this.name); // Kate
 };
@@ -332,7 +332,7 @@ const obj = {
 
 obj.fun();
 ```
-```javascript
+<!-- ```javascript
 const obj = {
   name: 'Kate',
   age: '25',
