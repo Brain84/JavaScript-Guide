@@ -344,7 +344,7 @@ const fn = function() {
 
 fn();
 ```
-<!-- ```javascript
+```javascript
 const obj = {
   name: 'Kate',
   age: '25',
@@ -356,7 +356,7 @@ const fn = function() {
 
 fn.call(obj); 
 ```
-```javascript
+<!-- ```javascript
 const obj = {
   name: 'Kate',
   age: '25',
