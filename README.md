@@ -370,7 +370,7 @@ const fnBind = fn.bind(obj);
 
 fnBind();
 ```
-<!-- ```javascript
+```javascript
 const obj = {
   name: 'Peter',
   age: '30',
@@ -387,7 +387,7 @@ const obj = {
 obj.showAge();
 obj.showAge2();
 ```
-```javascript
+<!-- ```javascript
 const obj = {
   names: ["Kate", "Paul", "Peter"],
 
