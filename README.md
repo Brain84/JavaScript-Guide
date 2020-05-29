@@ -413,7 +413,7 @@ const obj = {
 
 obj.showNames();
 ```
-<!-- ```javascript
+```javascript
 const obj = {
   names: ["Kate", "Paul", "Peter"],
 
@@ -427,7 +427,7 @@ const obj = {
 
 obj.showNames();
 ```
-```javascript
+<!-- ```javascript
 const obj = {
   names: ["Kate", "Paul", "Peter"],
 
