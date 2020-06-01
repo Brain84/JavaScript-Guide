@@ -115,8 +115,8 @@
     surname: 'Watson',
   };
 
-  console.log(item); // {id: 1, name: "Kate", surname: "Watson"}
-  console.log(item.name); // Kate 
+  console.log(items); // {id: 1, name: "Kate", surname: "Watson"}
+  console.log(items.name); // Kate 
   ```
   ```javascript
   const fullName = 'Kate Watson';
@@ -126,7 +126,7 @@
     age: 25,
   };
 
-  console.log(item.fullName); // Kate Watson
+  console.log(items.fullName); // Kate Watson
   ```
   ```javascript
   const items = { 
@@ -134,9 +134,9 @@
     b: 2,
   };
 
-  const copy = { ...items, c: 3 }; 
+  const newItems = { ...items, c: 3 }; 
 
-  console.log(copy); // {a: 1, b: 2, c: 3}
+  console.log(newItems); // {a: 1, b: 2, c: 3}
   ```
 
 [Back to table of contents](#table-of-contents)
@@ -427,7 +427,7 @@ const obj = {
 
 obj.showNames();
 ```
-<!-- ```javascript
+```javascript
 const obj = {
   names: ["Kate", "Paul", "Peter"],
 
@@ -440,7 +440,7 @@ const obj = {
 
 obj.showNames();
 ```
-```javascript
+<!-- ```javascript
 const obj = {
   names: ["Kate", "Paul", "Peter"],
 
