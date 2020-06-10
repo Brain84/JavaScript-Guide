@@ -453,18 +453,18 @@ const obj = {
 
 obj.showNames();
 ```
-<!-- ```javascript
+```javascript
 const obj = {
   names: ["Kate", "Paul", "Peter"],
 
   showNames: function() {
-    for (const name of this.names) { ??????????? sprawdzic dokladnie pętle for of
+    for (const name of this.names) {
       console.log(name); // Kate Paul Peter
     }
   }
 };
 
 obj.showNames();
-``` -->
+```
 
 [Back to table of contents](#table-of-contents)
