@@ -459,7 +459,7 @@ const obj = {
 
   showNames: function() {
     for (const name of this.names) {
-      console.log(name); // Kate Paul Peter
+      console.log(name); //  Kate Paul Peter
     }
   }
 };
