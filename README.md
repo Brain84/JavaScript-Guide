@@ -5,6 +5,7 @@
 * [Variables](#variables)
 * [Objects](#objects)
 * [Arrays](#arrays)
+* [Loops](#loops)
 * [This](#this)
 
 ## Types
@@ -466,5 +467,38 @@ const obj = {
 
 obj.showNames();
 ```
+
+[Back to table of contents](#table-of-contents)
+
+## Loops
+
+```javascript
+const arr = [3, 5, 7];
+
+for (let i = 0; i < arr.length; i++) {
+  console.log(arr[i]);  // 3  5  7
+};
+```
+<!-- ```javascript
+const arr = [3, 5, 7];
+
+for (let i in arr) {
+  console.log(i);  // 0  1  2
+}
+```
+```javascript
+const arr = [3, 5, 7];
+
+for (let i of arr) {
+  console.log(i);  // 3  5  7
+}
+```
+```javascript
+const names = ["Kate", "Paul", "Peter"];
+
+names.forEach(name => {
+  console.log(name);  //  Kate  Paul  Peter
+});
+``` -->
 
 [Back to table of contents](#table-of-contents)
