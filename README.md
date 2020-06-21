@@ -479,14 +479,14 @@ for (let i = 0; i < arr.length; i++) {
   console.log(arr[i]);  // 3  5  7
 };
 ```
-<!-- ```javascript
+```javascript
 const arr = [3, 5, 7];
 
 for (let i in arr) {
   console.log(i);  // 0  1  2
 }
 ```
-```javascript
+<!-- ```javascript
 const arr = [3, 5, 7];
 
 for (let i of arr) {
