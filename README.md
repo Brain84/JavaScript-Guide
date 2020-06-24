@@ -486,14 +486,14 @@ for (let i in arr) {
   console.log(i);  // 0  1  2
 }
 ```
-<!-- ```javascript
+```javascript
 const arr = [3, 5, 7];
 
 for (let i of arr) {
   console.log(i);  // 3  5  7
 }
 ```
-```javascript
+<!-- ```javascript
 const names = ["Kate", "Paul", "Peter"];
 
 names.forEach(name => {
