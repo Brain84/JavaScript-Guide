@@ -334,13 +334,13 @@ for (let i of arr) {
   console.log(i);  // 3  5  7
 }
 ```
-<!-- ```javascript
+```javascript
 const names = ["Kate", "Paul", "Peter"];
 
 names.forEach(name => {
   console.log(name);  //  Kate  Paul  Peter
 });
-``` -->
+```
 
 [Back to table of contents](#table-of-contents)
 
