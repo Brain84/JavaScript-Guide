@@ -335,6 +335,23 @@ for (let i of arr) {
 }
 ```
 ```javascript
+let i = 1;
+
+while (i <= 5) {
+    console.log(i); // 1  2  3  4  5
+    i++;
+}
+```
+<!-- ```javascript
+const names = ["Kate", "Paul", "Peter"];
+let i = 0;
+
+while (i < names.length) {
+    console.log(names[i]); // Kate  Paul  Peter
+    i++;
+}
+``` -->
+```javascript
 const names = ["Kate", "Paul", "Peter"];
 
 names.forEach(name => {
