@@ -325,14 +325,14 @@ const arr = [3, 5, 7];
 
 for (let i in arr) {
   console.log(i);  // 0  1  2
-}
+};
 ```
 ```javascript
 const arr = [3, 5, 7];
 
 for (let i of arr) {
   console.log(i);  // 3  5  7
-}
+};
 ```
 ```javascript
 let i = 1;
@@ -340,7 +340,7 @@ let i = 1;
 while (i <= 5) {
     console.log(i); // 1  2  3  4  5
     i++;
-}
+};
 ```
 <!-- ```javascript
 const names = ["Kate", "Paul", "Peter"];
@@ -349,7 +349,59 @@ let i = 0;
 while (i < names.length) {
     console.log(names[i]); // Kate  Paul  Peter
     i++;
-}
+};
+```
+```javascript
+let i = 0;
+
+do {
+   i++;
+   console.log(i); // 1  2  3  4  5
+} while (i < 5);
+```
+```javascript
+let i = 0;
+
+do {
+   console.log(i); // 0  1  2  3  4
+   i++;
+} while (i < 5);
+```
+```javascript
+const names = ["Kate", "Paul", "Peter"];
+let i = 0;
+
+do {
+    console.log(names[i]); //  Kate  Paul  Peter
+    i++;
+} while (i < names.length);
+```
+```javascript
+const names = ["Kate", "Paul", "Peter"];
+let i = 0;
+
+do {
+    i++;
+    console.log(names[i]); //  Paul  Peter  undefined
+} while (i < names.length);
+```
+```javascript
+const names = ["Kate", "Paul", "Peter"];
+let i = 0;
+
+do {
+    console.log(names[i]); //  Kate
+    i++;
+} while (false);
+```
+```javascript
+const names = ["Kate", "Paul", "Peter"];
+let i = 0;
+
+do {
+    i++;
+    console.log(names[i]); //  Paul
+} while (false);
 ``` -->
 ```javascript
 const names = ["Kate", "Paul", "Peter"];
@@ -358,6 +410,22 @@ names.forEach(name => {
   console.log(name);  //  Kate  Paul  Peter
 });
 ```
+<!-- ```javascript
+const names = ["Kate", "Paul", "Peter"];
+
+names.forEach((name, index) => {
+  console.log(name, index);  //  Kate 0  Paul 1  Peter 2
+});
+```
+```javascript
+const names = ["Kate", "Paul", "Peter"];
+
+names.forEach((name, index) => {
+  if (index === 1) {
+    console.log(name);  //  Paul
+  }
+});
+``` -->
 
 [Back to table of contents](#table-of-contents)
 
