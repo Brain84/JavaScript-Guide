@@ -351,7 +351,7 @@ while (i < names.length) {
     i++;
 };
 ```
-<!-- ```javascript
+```javascript
 let i = 0;
 
 do {
@@ -359,7 +359,7 @@ do {
    console.log(i); // 1  2  3  4  5
 } while (i < 5);
 ```
-```javascript
+<!-- ```javascript
 let i = 0;
 
 do {
