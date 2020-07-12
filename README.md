@@ -359,7 +359,7 @@ do {
    console.log(i); // 1  2  3  4  5
 } while (i < 5);
 ```
-<!-- ```javascript
+```javascript
 let i = 0;
 
 do {
@@ -367,7 +367,7 @@ do {
    i++;
 } while (i < 5);
 ```
-```javascript
+<!-- ```javascript
 const names = ["Kate", "Paul", "Peter"];
 let i = 0;
 
