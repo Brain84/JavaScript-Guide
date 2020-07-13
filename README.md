@@ -367,7 +367,7 @@ do {
    i++;
 } while (i < 5);
 ```
-<!-- ```javascript
+```javascript
 const names = ["Kate", "Paul", "Peter"];
 let i = 0;
 
@@ -376,7 +376,7 @@ do {
     i++;
 } while (i < names.length);
 ```
-```javascript
+<!-- ```javascript
 const names = ["Kate", "Paul", "Peter"];
 let i = 0;
 
