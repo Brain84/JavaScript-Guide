@@ -376,7 +376,7 @@ do {
     i++;
 } while (i < names.length);
 ```
-<!-- ```javascript
+```javascript
 const names = ["Kate", "Paul", "Peter"];
 let i = 0;
 
@@ -385,7 +385,7 @@ do {
     console.log(names[i]); //  Paul  Peter  undefined
 } while (i < names.length);
 ```
-```javascript
+<!-- ```javascript
 const names = ["Kate", "Paul", "Peter"];
 let i = 0;
 
