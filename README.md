@@ -410,14 +410,14 @@ names.forEach(name => {
   console.log(name);  //  Kate  Paul  Peter
 });
 ```
-<!-- ```javascript
+```javascript
 const names = ["Kate", "Paul", "Peter"];
 
 names.forEach((name, index) => {
   console.log(name, index);  //  Kate 0  Paul 1  Peter 2
 });
 ```
-```javascript
+<!-- ```javascript
 const names = ["Kate", "Paul", "Peter"];
 
 names.forEach((name, index) => {
